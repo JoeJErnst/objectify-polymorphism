@@ -8,8 +8,13 @@ I created this based on the [help I got](https://groups.google.com/forum/#!topic
 Required Libraries
 ------------------
 appengine-api-labs.jar
+
 appengine-api-stubs.jar
+
 appengine-api.jar
+
 appengine-testing.jar
+
 junit-4.10.jar
+
 objectify-4.0b1.jar
