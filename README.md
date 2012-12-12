@@ -1,13 +1,6 @@
 objectify-polymorphism
 ======================
 
-<<<<<<< HEAD
-A brief demo of the difference between polymorphism in Java and Objectify
+This is a little demo of how you can (and can't) use polymorphic queries in Objectify for Google AppEngine.
 
-How does Polymorphism differ between Java and Objectify?
---------------------------------------------------------
-The concept of polymorphism is one of the tenets of Object Oriented Programming.
-=======
-A brief demo of polymorphism in Objectify
-
->>>>>>> Created Polymorphism demo
+I created this based on the [help I got](https://groups.google.com/forum/#!topic/objectify-appengine/ocn4hPOpluc) from Jeff Schnitzer in the [objectify-appengine](https://groups.google.com/forum/#!forum/objectify-appengine) Google group.
