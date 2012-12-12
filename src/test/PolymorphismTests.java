@@ -78,8 +78,8 @@ public class PolymorphismTests {
     /**
      * Here's something that WON'T work unless you put @EntitySubclass(index=true) on the Car entity,
      * because Entity Subclasses are not indexed by default.  This can be confusing because numDoors had the @Index
-     * annotation, but it won't be returned in this query because the underlying descriminator is NOT indexed
-     * (unless you use @EntitySubclass(index=true)
+     * annotation, but it won't be returned in this query because the underlying discriminator is NOT indexed
+     * (unless you use @EntitySubclass(index=true))
      */
     @Test
     public void getFourDoorCars() {
@@ -89,6 +89,5 @@ public class PolymorphismTests {
             // You won't see this line logged, because the query won't return any results.
             logger.info(car.toJSON());
         }
-
     }
 }

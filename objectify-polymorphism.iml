@@ -11,7 +11,6 @@
     <orderEntry type="library" name="objectify-4.0b1" level="project" />
     <orderEntry type="library" name="junit-4.10" level="project" />
     <orderEntry type="library" name="App Engine 1.7.3 Test Libraries" level="project" />
-    <orderEntry type="library" name="App Engine 1.7.3 Libraries" level="project" />
   </component>
 </module>
 

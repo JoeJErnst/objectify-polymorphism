@@ -8,6 +8,8 @@ public class OfyService {
         factory().register(Vehicle.class);
         factory().register(Car.class);
         factory().register(Motorcycle.class);
+
+        // Notice that we didn't register the Foundation class because it is not part of the Objectify hierarchy.
     }
 
     public static Objectify ofy() {
